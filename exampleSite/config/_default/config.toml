@@ -1,4 +1,4 @@
-baseURL = "http://www.bebocard.com"
+baseURL = "https://www.bebocard.com/"
 disqusShortname = ""
 googleAnalytics = ""
 paginate = "3"
