@@ -1,9 +1,71 @@
-baseURL = "https://www.bebocard.com/"
+  
+baseURL = "http://roadenn.netlify.com"
 disqusShortname = ""
 googleAnalytics = ""
+languageCode = "en-us"
+languageName = "En"
 paginate = "3"
 summaryLength = "15"
 theme = "bigspring"
-title = "Bigspring Hugo"
+title = "Roadenn"
 [markup.goldmark.renderer]
 unsafe = true
+[menu]
+footer_right = []
+main = []
+[[menu.footer_left]]
+URL = "#"
+name = "Blog"
+[[menu.footer_left]]
+URL = "https://www.linkedin.com/company/roadenn"
+name = "Linkedin"
+[[menu.footer_left]]
+URL = "https://twitter.com/tanguylebarber"
+name = "Twitter"
+[[menu.footer_middle]]
+URL = "https://frenchtechvietnam.com/"
+name = "Site Internet"
+[[menu.footer_middle]]
+URL = "https://www.linkedin.com/company/frenchtechvietnam"
+name = "Linkedin"
+[[menu.footer_middle]]
+URL = "https://twitter.com/FrenchTechViet"
+name = "Twitter"
+[params]
+author = "Tanguy LE BARBER"
+contact_form_action = "#"
+copyright = "Powered By [Tanguy LE BARBER](https://www.linkedin.com/in/tanguylebarber/) Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
+description = "Roadenn une société de conseil pour votre transformation digitale"
+footer_content = "Société de Conseil en Transformation Digitale & Conduite du Changement - Nous sommes membre de la French Tech Vietnam"
+footer_menu_left = "Roadenn"
+footer_menu_middle = "French Tech Vietnam"
+footer_menu_right = ""
+logo = "/images/roadenn2-1.png"
+logo_width = "200px"
+[params.navigation_button]
+enable = true
+label = "Contactez-Nous"
+link = "https://form.typeform.com/to/ASAPxXgW"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[params.preloader]
+enable = false
+preloader = ""
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/company/roadenn/"
+title = "Linkedin"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://twitter.com/tanguylebarber"
+title = "Twitter"
